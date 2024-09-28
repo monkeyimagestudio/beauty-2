@@ -1,3 +1,4 @@
+
 /**************************************************************/
 
 @media screen and (min-width:300px) and (max-width: 768px){
@@ -32,13 +33,14 @@
       }
       
     .sidenav {
-        width: 250px;
+        width: 0;
         height: 100vh;
         background-color: #ffffff;
         overflow-y: auto;
         position: fixed;
         top: 0;
         left: 0;
+        transition: width 0.3s;
     
     }
     
@@ -212,7 +214,7 @@
         .gallery-box{
             padding-top: 3%;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             max-width: 100%;
         }
           .image-gallery img {
@@ -324,7 +326,7 @@
     .gallery-box{
         padding-top: 3%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
     }
       .image-gallery img {
@@ -437,7 +439,7 @@
     .gallery-box{
         padding-top: 3%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
     }
       .image-gallery img {
